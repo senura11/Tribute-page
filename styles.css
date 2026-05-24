@@ -1,1 +1,93 @@
 
+/* Basic Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main Container */
+#main {
+  background-color: #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+/* Image Section */
+#img-div {
+  background-color: #eeeeee;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+/* Responsive Image Rule (FCC Requires this!) */
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* Tribute Info Section */
+#tribute-info {
+  text-align: left;
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+#tribute-info h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: #f9f9f9;
+  border-left: 5px solid #007bff;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+/* Link Styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
